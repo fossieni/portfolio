@@ -1,0 +1,24 @@
+
+/**
+ * Icons
+ */
+.icon {
+    > svg {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+    }
+}
+
+.dark .icon > svg {
+	fill: $almost-white;
+}
+.light .icon > svg {
+	fill: $almost-black;
+}
+
+.icon.icon--logo > svg {
+	width: 24px;
+	height: 27px;
+}

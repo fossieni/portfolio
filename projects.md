@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /about/
+permalink: /projects/
 
-title: About me
+title: Projects
 title-image: /img/blog-titleimage
 title-shade: dark
 ---

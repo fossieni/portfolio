@@ -1,0 +1,31 @@
+footer.footer__site {
+	z-index: $zindex-navbar;
+		
+	@media (min-width: $screen-md) {
+		position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 45%;
+	  text-align: left;
+	  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+	}
+	
+	
+	
+	ul.footer__links {
+		list-style: none;
+		
+		@media (min-width: $screen-md) {
+			position: relative;
+			margin-bottom: 30px;
+			margin-left: 30px;
+		}
+	}
+	
+	ul.footer__links li {
+		display: inline;
+	} 
+}

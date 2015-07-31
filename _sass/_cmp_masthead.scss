@@ -1,0 +1,18 @@
+header.post__header {
+	margin-top: -75px;
+	margin-bottom: 50px;
+	
+	@media (min-width: $screen-md) {
+		position: fixed;
+		width: 45%;
+	  
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	  margin-left: 30px;
+	  
+		top: 200px;
+	}
+	.post__title {
+		color: $almost-white;
+	}
+}

@@ -3,34 +3,128 @@
 ---
 @charset "utf-8";
 
+// Global values
+// --------------------------------------------------
+
+// Grays
+// -------------------------
+
+$almost-black:           #000000;
+$gray-darker:            #151515;
+$gray-dark:              #424242;
+$gray:                   #909090;
+$gray-light:             #dfdfdf;
+$gray-lighter:           #f4f4f4;
+$almost-white:           #ffffff;
+
+// Brand colors
+// -------------------------
+
+$brand-primary:         #C02942;
+$brand-success:         #5cb85c;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
+$brand-info:            #5bc0de;
+
+// Scaffolding
+// -------------------------
+
+$body-bg:               #fff;
+$text-color:            $gray-dark;
+
+// Links
+// -------------------------
+
+$link-color:            $brand-primary;
+$link-hover-color:      darken($link-color, 15%);
+
+// Typography
+// -------------------------
+
+$font-family-sans-serif:  "MuseoSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "Museo", Georgia, "Times New Roman-", Times, serif;
+$font-family-monospace:   Monaco, Menlo, Consolas, "Courier- New", monospace;
+$font-family-base:        $font-family-sans-serif;
+
+$font-size-base:          18px;
+$font-size-large:         ceil($font-size-base * 1.777); // ~29px
+$font-size-small:         ceil($font-size-base * 0.563); // ~11px
+
+$font-size-h1:            floor($font-size-base * 3.157); // ~123px
+$font-size-h2:            floor($font-size-base * 2.369); // ~47px
+$font-size-h3:            floor($font-size-base * 1.777); // ~29px
+$font-size-h4:            ceil($font-size-base * 1.333); // ~23px
+$font-size-h5:            $font-size-base;
+$font-size-h6:            ceil($font-size-base * 0.75); // ~11px
+
+$font-weight-base:        300;
+$line-height-base:        1.5;
+$line-height-computed:    floor($font-size-base * $line-height-base);
+
+$headings-font-family:    $font-family-serif;
+$headings-font-weight:    900;
+$headings-line-height:    1.07;
+
+$spacing-unit:						$line-height-computed;
+
+// Z-index master list
+// -------------------------
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
+
+$zindex-navbar:            1000;
+$zindex-sidebar:           1000;
+$zindex-dropdown:          1000;
+$zindex-popover:           1010;
+$zindex-tooltip:           1030;
+$zindex-navbar-fixed:      1030;
+$zindex-modal-background:  1040;
+$zindex-modal:             1050;
 
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// Media queries breakpoints
+// --------------------------------------------------
 
-$spacing-unit:     30px;
+// Extra small screen / phone
+$screen-xs:                  480px;
+$screen-xs-min:              $screen-xs;
+$screen-phone:               $screen-xs-min;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// Small screen / tablet
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+$screen-tablet:              $screen-sm-min;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+// Medium screen / desktop
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+$screen-desktop:             $screen-md-min;
 
-// Width of the content area
-$content-width:    800px;
+// Large screen / wide desktop
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+$screen-lg-desktop:          $screen-lg-min;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
+
+
+// Grid system
+// --------------------------------------------------
+
+// Number of columns in the grid system
+$grid-columns:              12;
+// Padding, to be divided by two and applied to the left and right of all columns
+$grid-gutter-width:         27px;
+// Point at which the navbar stops collapsing
+$grid-float-breakpoint:     $screen-sm;
 
 
 
 // Using media queries with like this:
-// @include media-query($on-palm) {
+// @include media-query($screen-md) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
@@ -47,6 +141,17 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "fonts",
+        "typography",
+				"icons",
+
         "layout",
+        
+        
+        // SITE COMPONENTS
+        "cmp_siteheader",
+        "cmp_sitefooter",
+        "cmp_masthead",
+        
         "syntax-highlighting"
 ;
