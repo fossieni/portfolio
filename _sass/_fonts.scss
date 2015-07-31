@@ -1,0 +1,195 @@
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2011 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      exljbris
+ * License URL: http://www.fontspring.com/fflicense/exljbris
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_100-webfont.eot');
+    src: url('../fonts/MuseoSans_100-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_100-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_100-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_100-webfont.svg#MuseoSans100') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_100_Italic-webfont.eot');
+    src: url('../fonts/MuseoSans_100_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_100_Italic-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_100_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_100_Italic-webfont.svg#MuseoSans100Italic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_300-webfont.eot');
+    src: url('../fonts/MuseoSans_300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_300-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_300-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_300-webfont.svg#MuseoSans300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_300_Italic-webfont.eot');
+    src: url('../fonts/MuseoSans_300_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_300_Italic-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_300_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_300_Italic-webfont.svg#MuseoSans300Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MuseoSans500';
+    src: url('../fonts/MuseoSans_500-webfont.eot');
+    src: url('../fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_500-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_500-webfont.svg#MuseoSans500') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_500_Italic-webfont.eot');
+    src: url('../fonts/MuseoSans_500_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_500_Italic-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_500_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_500_Italic-webfont.svg#MuseoSans500Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_700-webfont.eot');
+    src: url('../fonts/MuseoSans_700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_700-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_700-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_700-webfont.svg#MuseoSans700') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+ @font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_700_Italic-webfont.eot');
+    src: url('../fonts/MuseoSans_700_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_700_Italic-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_700_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_700_Italic-webfont.svg#MuseoSans700Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_900-webfont.eot');
+    src: url('../fonts/MuseoSans_900-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_900-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_900-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_900-webfont.svg#MuseoSans900') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_900_Italic-webfont.eot');
+    src: url('../fonts/MuseoSans_900_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_900_Italic-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_900_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_900_Italic-webfont.svg#MuseoSans900Italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      exljbris Font Foundry
+ * License URL: http://www.fontspring.com/licenses/exljbris/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo300-Regular-webfont.eot');
+    src: url('../fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo300-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Museo300-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo300-Regular-webfont.svg#museo300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo500-Regular-webfont.eot');
+    src: url('../fonts/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo500-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Museo500-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo500-Regular-webfont.svg#museo500') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo700-Regular-webfont.eot');
+    src: url('../fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo700-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Museo700-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo700-Regular-webfont.svg#museo700') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
