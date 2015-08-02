@@ -1,13 +1,17 @@
 require 'rack'
+require 'rack/contrib/try_static'
 
 unauthorized = "./401.html"
 notfound = "./404.html"
 
 map '/' do
-	use Rack::Static, :urls => ["/"], :root => Dir.pwd, :index => 'index.html'
+	use Rack::TryStatic, 
+		:root => Dir.pwd, 
+		:urls => ["/"],
+		:try => ['.html', 'index.html', '/index.html']
 
 	run lambda { |env|
-	  [200, {'Content-Type'  => 'text/html', 'Cache-Control' => 'public, max-age=3600'}, File.open('index.html', File::RDONLY)]
+	  [404, {'Content-Type'  => 'text/html', 'Cache-Control' => 'public, max-age=3600'}, File.open(notfound, File::RDONLY)]
 	}
 end
 
@@ -21,5 +25,11 @@ map '/protected' do
 	  else
 	  	[401, {'Content-Type' => 'text/html', 'Content-Size' => "#{File.size(unauthorized)}", 'Cache-Control' => 'public, max-age=3600', 'Debugging' => "#{ENV.inspect}"}, File.open(unauthorized, File::RDONLY)]
 	  end
+	}
+end
+
+map '/config.ru' do
+	run lambda { |env|
+	  [404, {'Content-Type'  => 'text/html', 'Cache-Control' => 'public, max-age=3600'}, File.open(notfound, File::RDONLY)]
 	}
 end
