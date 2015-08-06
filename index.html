@@ -1,23 +1,35 @@
 ---
 layout: default
 
+title-image: /img/landing-selfie
+title-shade: light
 ---
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<div id="container__masthead" class="container__masthead light">
+	<header class="post__header reveal"  data-reveal-in="0.5" data-reveal-out="0.5">
+	  <h1 class="post__title">DESIGN <span class="icon icon--heart icon--54x54 icon--color--brand"><svg><use xlink:href="#icon--heart" /></svg></span> TECHNOLOGY</h1>
+		<p>I'm a Designer at BlackBerry.</p>
+		<p>From Sweden, living in Brooklyn.</p>
+	</header>
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div id="container__body" class="container__body dark">
+		
+	  <ul class="postlist">
+		  <li>
+				<div class="postlist__item background__image--fill {{ page.title-shade }}" style="background-image: url('{{ page.title-image }}-lg.jpg');">
 
-        <h5>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h5>
-      </li>
-    {% endfor %}
-  </ul>
+				</div>
+		  </li>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+	    {% for post in site.posts %}
+	    <li><a class="postlist__link" href="{{ post.url | prepend: site.baseurl }}">
+				<div class="postlist__item background__image--fill {{ post.title-shade }}" style="background-image: url('{{ post.title-image }}-lg.jpg');">
+	        <h2 class="postlist__title">{{ post.title }}</h2>
+					<p>{{ post.excerpt }}</p>
+				</div>
+      </a></li>
+	    {% endfor %}
+	  </ul>
+	</div>
 </div>
