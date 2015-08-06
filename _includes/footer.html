@@ -1,23 +1,27 @@
 <footer class="footer__site {{ page.title-shade }}">
   <ul class="footer__links">
     <li>
+    {% if site.email %}
     	<a href="mailto:{{ site.email }}">
       	<span class="icon icon--email">
           <svg>
-						<use xlink:href="#icon--github" />
+						<use xlink:href="#icon--email" />
 					</svg>
         </span>
+        <span class="hidden">Email</span>
     	</a>
     </li>
+    {% endif %}
 
-    {% if site.github_username %}
+    {% if site.linkedin_username %}
     <li>
-      <a href="https://github.com/{{ site.github_username }}">
-        <span class="icon icon--github">
+      <a href="http://linkedin.com/in/{{ site.linkedin_username }}">
+        <span class="icon icon--linkedin">
           <svg>
-						<use xlink:href="#icon--github" />
+						<use xlink:href="#icon--linkedin" />
 					</svg>
         </span>
+        <span class="hidden">Linkedin</span>
       </a>
     </li>
     {% endif %}
@@ -30,8 +34,23 @@
 						<use xlink:href="#icon--twitter" />
 					</svg>
         </span>
+        <span class="hidden">Twitter</span>
       </a>
     </li>
     {% endif %}
+
+    {% if site.github_username %}
+    <li>
+      <a href="https://github.com/{{ site.github_username }}">
+        <span class="icon icon--github">
+          <svg>
+						<use xlink:href="#icon--github" />
+					</svg>
+        </span>
+        <span class="hidden">Github</span>
+      </a>
+    </li>
+    {% endif %}
+
   </ul>
 </footer>

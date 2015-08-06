@@ -1,2 +1,4 @@
 _site
+_draft
+_posts/protected
 .sass-cache

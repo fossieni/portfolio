@@ -20,12 +20,13 @@ p {
 
 .lead {
   margin-bottom: $line-height-computed;
-  font-size: ($font-size-base * 1.15);
-  font-weight: 200;
+  font-size: ($font-size-base * 1.05);
+  font-weight: 300;
+  font-style: italic;
   line-height: 1.4;
 
   @media (min-width: $screen-tablet) {
-    font-size: ($font-size-base * 1.5);
+    font-size: ($font-size-base * 1.25);
   }
 }
 

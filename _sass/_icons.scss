@@ -2,13 +2,11 @@
 /**
  * Icons
  */
-.icon {
-    > svg {
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        vertical-align: middle;
-    }
+.icon > svg {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
 }
 
 .dark .icon > svg {
@@ -18,7 +16,33 @@
 	fill: $almost-black;
 }
 
+.icon.icon--color--brand > svg {
+	fill: $brand-primary;
+}
+
+.icon.icon--54x54 > svg {
+    width: 54px;
+    height: 54px;
+    margin-top: -12px;
+}
+
 .icon.icon--logo > svg {
 	width: 24px;
 	height: 27px;
+	margin-top: -3px;
 }
+
+.icon.icon--linkedin > svg {
+	width: 20px;
+	height: 20px;
+}
+
+.icon.icon--github > svg {
+	width: 22px;
+	height: 22px;
+}
+
+.icon.icon--twitter > svg {
+	margin-top: -1px;
+}
+

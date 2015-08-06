@@ -1,7 +1,33 @@
-header.post__header {
-	margin-top: -75px;
-	margin-bottom: 50px;
+.container__masthead {
+	position: relative;
+	top: -27px;
+	text-align: center;
+	overflow: hidden;
 	
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+	@media (min-width: $screen-md) {
+		position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 45%;
+    text-align: left;
+    height: inherit;
+    max-height: inherit;
+    min-height: inherit;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+}
+
+header.post__header {
+	margin-top: 165px;
+  width: 100%;
+
 	@media (min-width: $screen-md) {
 		position: fixed;
 		width: 45%;
@@ -9,10 +35,11 @@ header.post__header {
 	  margin-top: 30px;
 	  margin-bottom: 30px;
 	  margin-left: 30px;
-	  
-		top: 200px;
+
+		top: 180px;  
 	}
-	.post__title {
+}
+
+.container__masthead.dark .post__title {
 		color: $almost-white;
-	}
 }

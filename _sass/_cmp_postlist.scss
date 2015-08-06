@@ -1,0 +1,24 @@
+.postlist {
+	list-style: none;
+	margin-left: 0;
+
+	@media (min-width: $screen-md) {
+		margin: 60px;
+	}
+	
+	.postlist__item {
+		height: 300px;
+		margin-top: 30px;
+		padding: 30px;
+	}
+	
+	.postlist__link {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.no-touch .postlist .postlist__item {
+	height: 75vh;
+}

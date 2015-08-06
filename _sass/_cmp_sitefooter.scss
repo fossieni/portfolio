@@ -27,5 +27,15 @@ footer.footer__site {
 	
 	ul.footer__links li {
 		display: inline;
-	} 
+		margin-right: 10px;
+	}
+	
+	ul.footer__links li a:hover {
+		text-decoration: none;
+	}
+	
+	ul.footer__links li a:active {
+		fill: $brand-primary;
+	}
+
 }

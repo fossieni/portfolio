@@ -1,0 +1,18 @@
+.container__body {
+
+	@media (min-width: $screen-md) {
+ 		margin-left: 45%;
+		
+		article {
+			padding-left: 130px;
+			padding-right: 100px;
+		}
+	}
+}
+
+
+.background__image--fill {
+	background-position: 50% 50;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
