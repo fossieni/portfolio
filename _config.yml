@@ -14,4 +14,4 @@ github_username: fossieni
 # Build settings
 markdown: kramdown
 
-keep_files: ["Gemfile", "Gemfile.lock", ".git"]
+keep_files: ["Gemfile", "Gemfile.lock", ".git", ".openshift"]
