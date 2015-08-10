@@ -1,6 +1,7 @@
 footer.footer__site {
 	z-index: $zindex-navbar;
-		
+	margin-top: 6px;
+
 	@media (min-width: $screen-md) {
 		position: fixed;
 	  left: 0;

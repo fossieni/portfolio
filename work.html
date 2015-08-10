@@ -1,0 +1,22 @@
+---
+layout: page
+permalink: /work/
+
+title: Work
+title-image: /img/blog-titleimage
+excerpt: Things I've been doing throughout the years.
+---
+
+<ul class="postlist">
+
+  {% for post in site.posts %}
+  <li><a class="postlist__link background__image--fill light text-center" style="background-image: url('{{ post.post-image }}-lg.jpg');" href="{{ post.url | prepend: site.baseurl }}">
+		<div class="postlist__item">
+			<p class="postlist__type">{{ post.type }}</p>
+      <h2 class="postlist__title">{{ post.title }}</h2>
+			<p>{{ post.excerpt }}</p>
+			<span class="button">Check it out</span>
+		</div>
+  </a></li>
+  {% endfor %}
+</ul>

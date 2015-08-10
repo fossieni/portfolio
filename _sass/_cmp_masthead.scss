@@ -24,22 +24,3 @@
   }
 }
 
-header.post__header {
-	margin-top: 165px;
-  width: 100%;
-
-	@media (min-width: $screen-md) {
-		position: fixed;
-		width: 45%;
-	  
-	  margin-top: 30px;
-	  margin-bottom: 30px;
-	  margin-left: 30px;
-
-		top: 180px;  
-	}
-}
-
-.container__masthead.dark .post__title {
-		color: $almost-white;
-}

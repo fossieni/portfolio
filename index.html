@@ -1,12 +1,11 @@
 ---
 layout: default
 
-title-image: /img/landing-selfie
-title-shade: light
+post-image: /img/landing-selfie
 ---
 
 <div id="container__masthead" class="container__masthead light">
-	<header class="post__header reveal"  data-reveal-in="0.5" data-reveal-out="0.5">
+	<header class="list__header" data-reveal data-reveal-in="0.5" data-reveal-out="0.5">
 	  <h1 class="post__title">DESIGN <span class="icon icon--heart icon--54x54 icon--color--brand"><svg><use xlink:href="#icon--heart" /></svg></span> TECHNOLOGY</h1>
 		<p>I'm a Designer at BlackBerry.</p>
 		<p>From Sweden, living in Brooklyn.</p>
@@ -14,22 +13,6 @@ title-shade: light
 </div>
 
 <div id="container__body" class="container__body dark">
-		
-	  <ul class="postlist">
-		  <li>
-				<div class="postlist__item background__image--fill {{ page.title-shade }}" style="background-image: url('{{ page.title-image }}-lg.jpg');">
-
-				</div>
-		  </li>
-
-	    {% for post in site.posts %}
-	    <li><a class="postlist__link" href="{{ post.url | prepend: site.baseurl }}">
-				<div class="postlist__item background__image--fill {{ post.title-shade }}" style="background-image: url('{{ post.title-image }}-lg.jpg');">
-	        <h2 class="postlist__title">{{ post.title }}</h2>
-					<p>{{ post.excerpt }}</p>
-				</div>
-      </a></li>
-	    {% endfor %}
-	  </ul>
+	<div class="selfie background__image--fill" style="background-image: url('{{ page.post-image }}-lg.jpg');">
 	</div>
 </div>
