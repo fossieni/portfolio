@@ -1,20 +1,21 @@
 ---
 layout: page
+group: work
 permalink: /work/
 
 title: Work
 title-image: /img/blog-titleimage
-excerpt: Things I've been doing throughout the years.
+excerpt: A walkthrough of different projects that I’ve been dealing with throughout the years.
 ---
 
 <ul class="postlist">
 
   {% for post in site.posts %}
   <li><a class="postlist__link background__image--fill light text-center" style="background-image: url('{{ post.post-image }}-lg.jpg');" href="{{ post.url | prepend: site.baseurl }}">
-		<div class="postlist__item">
-			<p class="postlist__type">{{ post.type }}</p>
-      <h2 class="postlist__title">{{ post.title }}</h2>
-			<p>{{ post.excerpt }}</p>
+		<div class="postlist__item postlist__item--big">
+			<p class="post__type">{{ post.type }}</p>
+      <h2 class="post__title">{{ post.title }}</h2>
+			{{ post.excerpt }}
 			<span class="button">Check it out</span>
 		</div>
   </a></li>

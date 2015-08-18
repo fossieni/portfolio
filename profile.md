@@ -1,36 +1,44 @@
 ---
 layout: page
-permalink: /about/
+group: profile
+permalink: /profile/
 
-title: About
+title: Profile
 title-image: /img/blog-titleimage
 ---
 
-Tools and Methods
+#Profile
+I am Johan. I enjoy learning new things. Looking at things from a perspective that I didn't know about before. I love doing more than making pretty pixels or coding. I want to get my feet wet and try to see the whole picture.
 
-My tools and mind set going into any project is the UCD process. Research, design and development are all part of the process and should not be isolated. Instead, bridging them all together can make wonders for the result. 
+My tools and mind set going into any project is the User Centred Design process. Research, design and development are all part of the process and should not be isolated. Instead, bridging them all together can make wonders for the result. 
 
 I am a Certified ScrumMaster and have been practicing agile and lean methods since day one of working. I prefer to do things iteratively. Not only does it bring me closer to the way most developers work, but it also shorten the feedback loop considerably. That way I can learn quickly, discard ideas that does not work and keep refining the ideas that does.
 
 ##Learn
 I am not the user even if I use the end result. Therefore I listen and learn before doing anything else.
 {: .lead}
+
+[![Chatting with evangelists in Canada](/projects/img/post-blackberrydevexp-img1.1-lg.jpg)](/projects/img/post-blackberrydevexp-img1.1-lg@2x.jpg){: .col-1}
+{: .gallery data-gallery=""}
+
 Empathy for the user is something that always needs to be present. 
 
 Balancing user needs against business objectives as well as technical and systematic constraints can sometimes be challenging, but it is also something that can be the most rewarding to overcome.
 
 To do that, you can’t only study the user, but also study the system in which they reside.
+
 ####Tasks
 Systems analysis • Interviews • Requirements gathering • Surveys • Personas • Scenarios
 
 ##Think
-Combine two ideas, and you get a new idea. Visualize and draw the idea to see if it works and verify against personas and scenarios.
+Combine two ideas, and you get a new idea. Visualise and draw the idea to see if it works and verify against personas and scenarios.
 
 After learning about users and their system, we try to find solutions to their problems.
 
 Some of the most essential tools here are conversation and discussion. For me this is when new ideas are born and solutions are found. Being able to listen to critique is also something I find very important.
 
 After finding potential solutions, we need to test these solutions further by sketching, creating information architectures or interaction flows and concepts.
+
 ####Tasks
 User journeys • Ideation • Mental models • Sketching • Information Architecture
 

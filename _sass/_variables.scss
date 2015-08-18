@@ -9,12 +9,13 @@
 // Grays
 // -------------------------
 
+$almost-black:					 #19180A;
 $gray-darker:            #1d1d1d;
 $gray-dark:              #424242;
 $gray:                   #909090;
 $gray-light:             #dfdfdf;
 $gray-lighter:           #f4f4f4;
-$almost-white:           #ffffff;
+$almost-white:           #F4F0F5;
 
 // Brand colors
 // -------------------------
@@ -29,7 +30,8 @@ $brand-info:            #5bc0de;
 // -------------------------
 
 $body-bg:               #fff;
-$text-color:            $gray-dark;
+$text-color:            $almost-black;
+$title-text-color:      $almost-black;
 
 // Links
 // -------------------------

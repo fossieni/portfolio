@@ -1,14 +1,34 @@
 [data-gallery] {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
   display: flex;
+  -webkit-box-pack: start; /* Safari < 7.0 */
+  -webkit-box-lines: multiple;
   -webkit-flex-flow: row wrap; /* Fix for iOS */
-  flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+  -webkit-justify-content: space-between;  
   justify-content: space-between;  
-
+  overflow: hidden;
+  
+	@media (min-width: $screen-md) {
+	  position: fixed;
+	  width: 41%;
+	  left: 60px;
+	  top: 140px;
+	  bottom: 120px;
+	}
+    
 	a {
+		position: relative;
 		cursor: -webkit-zoom-in;
 		cursor: -moz-zoom-in;
 		background-color: $gray-light;
-		border: none;		
+		border: none;
+		overflow: hidden;
 
 		&.opened {
 			cursor: -webkit-zoom-out;
@@ -16,25 +36,52 @@
 		}
 
 	  & img {
-	    display: block;
+      display: block;
 	    margin: 0 auto;
 // 	    opacity: 0;
 	    max-width: 100%;
 	    transition: all .25s ease-in-out;
+	    object-fit: cover;
+			width: 100%;
+			height: 100%;
+
+			@media (min-width: $screen-md) {
+    		position: absolute;
+    	}
+  	}
+  	
+  	& img + em {
+	  	position: absolute;
+			width: 100%;
+	  	bottom: 0;
+	  	opacity: 0;
+	  	color: $almost-white;
+	  	background-color: rgba($almost-black, 0.5);
+	  	transition: all .25s ease-in-out;
+  	}
+  	
+  	&:hover {
+	  	& img + em {
+		  	opacity: 1;
+	  	}
   	}
 	}
 
-	&.col-1 a {
+	.col-1 {
 		width: 100%;
+		margin-bottom: 10px;
 	}
 	
-	&.col-2 a {
+	.col-2 {
 		width: 49%;
+		margin-bottom: 10px;
 	}
 	
-	&.col-3 a {
+	.col-3 {
 		width: 32%;
+		margin-bottom: 10px;
 	}
+	
 }
 
 

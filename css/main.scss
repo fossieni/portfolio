@@ -9,7 +9,7 @@
 // Grays
 // -------------------------
 
-$almost-black:           #000000;
+$almost-black:					 #19180A;
 $gray-darker:            #151515;
 $gray-dark:              #424242;
 $gray:                   #909090;
@@ -31,6 +31,7 @@ $brand-info:            #5bc0de;
 
 $body-bg:               #fff;
 $text-color:            $gray-dark;
+$title-text-color:      $almost-black;
 
 // Links
 // -------------------------
@@ -154,6 +155,7 @@ $grid-float-breakpoint:     $screen-sm;
         "cmp_container_body",
 
         "gallery",
+        "reveal",
         
         "syntax-highlighting"
 ;

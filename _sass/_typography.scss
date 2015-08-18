@@ -30,6 +30,17 @@ p {
   }
 }
 
+p.drop-cap::first-letter { 
+	float: left;
+	font-family: $font-family-sans-serif;
+	font-size: $line-height-computed*2;
+	font-weight: $headings-font-weight;
+	line-height: $line-height-computed*2;
+	padding-top: 1px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -81,9 +92,9 @@ h1, h2, h3, h4, h5, h6,
 h1,
 h2,
 h3 {
-  margin-top: $line-height-computed;
+  margin-top: $line-height-computed * 2;
   margin-bottom: ($line-height-computed / 2);
-	color: $gray-darker;
+	color: $title-text-color;
 
   small {
     font-size: 65%;
@@ -92,9 +103,9 @@ h3 {
 h4,
 h5,
 h6 {
-  margin-top: ($line-height-computed / 2);
+  margin-top: ($line-height-computed);
   margin-bottom: ($line-height-computed / 2);
-	color: $gray-darker;
+	color: $title-text-color;
 
   small {
     font-size: 75%;

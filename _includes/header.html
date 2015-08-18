@@ -12,9 +12,13 @@
   <nav class="nav__site">
 
     <div class="primary">
-      {% for page in site.pages %}
-        {% if page.title %}
-        	<a class="link__page" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% for node in site.pages %}
+        {% if node.title %}
+					{% if page.group == node.group %}
+          	<a class="link__page active" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+			    {% else %}
+          	<a class="link__page" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+					{% endif %}
         {% endif %}
       {% endfor %}
     </div>

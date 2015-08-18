@@ -1,6 +1,7 @@
 .postlist {
 	list-style: none;
-	margin-left: 0;
+	margin-left: 30px;
+	margin-right: 30px;
 
 	@media (min-width: $screen-md) {
 		margin-top: 60px;
@@ -8,7 +9,7 @@
 	
 	
 	
-	.postlist__item {
+	.postlist__item--big {
 		position: relative;
 		height: 300px;
 		margin-top: 30px;
@@ -18,11 +19,17 @@
 		-webkit-transition: all .35s;
 		transition: all .35s;	
 
-		.postlist__type {
+		.post__type {
 			text-transform: uppercase;
 		}
 		
-		.postlist__title {
+		.post__excerpt {
+			opacity: 0;
+			-webkit-transition: all .35s;
+			transition: all .35s;	
+		}
+		
+		.post__title {
 			color: $almost-white;
 		}
 		.button {
@@ -39,11 +46,21 @@
 		
 		&:hover {
 			text-decoration: none;
-
+					
 			.postlist__item {
 				background-color: rgba(0,0,0,0.5);
+	
+				@media (min-width: $screen-md) {
+					.post__excerpt {
+						opacity: 1;
+					}
+				}
 			}
 		}
+	}
+	
+	.post__item--small {
+
 	}
 }
 

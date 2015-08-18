@@ -1,15 +1,15 @@
-.reveal {
+[data-reveal-once], [data-reveal-position] {
 	opacity: 0 !important;
 }
 
-.animated-reveal {
+.reveal {
 	-webkit-animation-duration: 450ms;
 	animation-duration: 450ms;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
 
-.animated-reveal.staggered-25 {
+.reveal.staggered-25 {
 	@for $i from 1 through 10 {
 		&:nth-child(#{$i}) {
 			-webkit-animation-delay: #{$i * 25}ms; 
@@ -18,7 +18,7 @@
 	}
 }
 
-.animated-reveal.staggered-50 {
+.reveal.staggered-50 {
 	@for $i from 1 through 10 {
 		&:nth-child(#{$i}) {
 			-webkit-animation-delay: #{$i * 50}ms; 
