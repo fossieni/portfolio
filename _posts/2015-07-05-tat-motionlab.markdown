@@ -9,10 +9,10 @@ categories: projects
 
 ---
 Designing and coding a UI interface creation tool that makes it quick to get ideas on to a device.
-{: .post__excerpt}
+{: .post__excerpt data-reveal-in-id="reveal-tathero"}
 
-[![MotionLab UI](/projects/img/post-tatmotionlab-lg.jpg)](/projects/img/post-tatmotionlab-lg@2x.jpg)
-{: .col-1 data-gallery=""}
+[![MotionLab UI](/projects/img/post-tatmotionlab-lg.jpg)](/projects/img/post-tatmotionlab-lg@2x.jpg){: .col-1}
+{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-tathero"}
 
 ####What did I do?
 Contextual interviews and user research working together with customers • Interaction Design • C and C# Development
@@ -23,22 +23,24 @@ Limited resources for the task at hand.
 Serving several development teams at once.
 
 ##Contextual Interviews
+{: data-reveal-in-id="reveal-tatci" data-reveal-out-id="reveal-tathero"}
 As the primary user was available in-house, I did a lot of contextual interviews.
 {: .lead}
 
-[![Developer using MotionLab](/projects/img/post-tatmotionlab-img1-lg.jpg)](/projects/img/post-tatmotionlab-img1-lg@2x.jpg)
-[![Taking notes during interview](/projects/img/post-tatmotionlab-img2-lg.jpg)](/projects/img/post-tatmotionlab-img2-lg@2x.jpg)
-{: .col-2 data-gallery=""}
+[![Developer using MotionLab](/projects/img/post-tatmotionlab-img1-lg.jpg)](/projects/img/post-tatmotionlab-img1-lg@2x.jpg){: .col-2}
+[![Taking notes during interview](/projects/img/post-tatmotionlab-img2-lg.jpg)](/projects/img/post-tatmotionlab-img2-lg@2x.jpg){: .col-2}
+{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-tatci"}
 
 I sat down with the users as they were doing their daily work. In some sessions, users were asked to think out loud and in others, I simply asked a question every now and then and observed how the users moved through the application.
 
 ##User Stories and Serving Many Teams
+{: data-reveal-in-id="reveal-tatus" data-reveal-out-id="reveal-tatci"}
 “As a TML developer, I need a shortcut for commenting out code, So that I can quickly switch in and out code during development.”
 {: .lead}
 
-[![User story on a whiteboard](/projects/img/post-tatmotionlab-img3-lg.jpg)](/projects/img/post-tatmotionlab-img3-lg@2x.jpg)
-[![Personas](/projects/img/post-tatmotionlab-img4-lg.jpg)](/projects/img/post-tatmotionlab-img4-lg@2x.jpg)
-{: .col-2 data-gallery=""}
+[![User story on a whiteboard](/projects/img/post-tatmotionlab-img3-lg.jpg)](/projects/img/post-tatmotionlab-img3-lg@2x.jpg){: .col-2}
+[![Personas](/projects/img/post-tatmotionlab-img4-lg.jpg)](/projects/img/post-tatmotionlab-img4-lg@2x.jpg){: .col-2}
+{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-tatus"}
 
 The things learned from contextual interviews and other business requirements were fed into the backlog of user stories that then would be planned into the following sprints. One thing we noticed was how developers was not using the visual design view of the tool and instead ran the simulator. We learned that we should never separate a developer from their code. Let them be in control and show the result of the code instead.
 

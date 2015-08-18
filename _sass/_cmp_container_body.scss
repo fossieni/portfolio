@@ -33,7 +33,7 @@ header.post__header {
 }
 
 .container__body {
-	article {
+	article, header {
 		h1, h2, h3, h4, h5, h6, p:not(.gallery) {
 			padding-left: 30px;
 			padding-right: 30px;
@@ -44,7 +44,7 @@ header.post__header {
 		padding-left: 60px;
 		padding-right: 60px;
 		
-		article {
+		article, header {
 			margin-bottom: 60px;
 			h1, h2, h3, h4, h5, h6, p:not(.gallery) {
 				padding-left: 0;

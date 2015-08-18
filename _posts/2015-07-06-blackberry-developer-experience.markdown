@@ -9,10 +9,10 @@ categories: projects
 
 ---
 Creating tools, documentation and assets for third party developers on the BlackBerry 10 platform.
-{: .post__excerpt}
+{: .post__excerpt data-reveal-in-id="reveal-hero"}
 
 [![Code on screen](/projects/img/post-blackberrydevexp-lg.jpg){: srcset=""}](/projects/img/post-blackberrydevexp-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" data-reveal-position=""}
+{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-hero"}
 
 ####What did I do?
 Personas and Scenarios definition • Information architecture for developer.blackberry.com websites • Interaction design for Sample applications, Websites and Tools • Interaction design for style guide components • Documentation and website information architecture • Prototyping • PHP, JavaScript and CSS Development
@@ -23,7 +23,8 @@ Synchronizing documentation to a constantly shifting product.
 Understanding the user without meeting the actual user.
 
 
-##Developer Journeys and Personas
+##Developer Journeys and Personas 
+{: data-reveal-in-id="reveal-devjp" data-reveal-out-id="reveal-hero"}
 We tried to get an understanding for what our users had to do to make things for previous platforms; like their journey through our sites and tools, to be able to reach their goals.
 {: .lead}
 
@@ -31,7 +32,7 @@ We tried to get an understanding for what our users had to do to make things for
 [![Developer scenarios](/projects/img/post-blackberrydevexp-img1.2-lg.jpg)](/projects/img/post-blackberrydevexp-img1.2-lg@2x.jpg){: .col-3}
 [![Personas](/projects/img/post-blackberrydevexp-img1.3-lg.jpg)](/projects/img/post-blackberrydevexp-img1.3-lg@2x.jpg){: .col-3}
 [![Interviewing](/projects/img/post-blackberrydevexp-img1.4-lg.jpg)](/projects/img/post-blackberrydevexp-img1.4-lg@2x.jpg){: .col-3}
-{: .gallery data-gallery="" data-reveal-position=""}
+{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-devjp"}
 
 When we started out, we tried to get a feeling for what our developer needed to do right now to develop for our platform.
 
@@ -41,6 +42,7 @@ From the things we learned, we created personas and used these in scenarios.
 
 
 ##Ideation, Architecture and Wireframes
+{: data-reveal-in-id="reveal-deviaw" data-reveal-out-id="reveal-devjp"}
 Based on our understanding of the users and their journeys, we tried to find solutions, built an information architecture and sketched our ideas.
 {: .lead}
 
@@ -48,7 +50,7 @@ Based on our understanding of the users and their journeys, we tried to find sol
 [![Personas](/projects/img/post-blackberrydevexp-img2.3-lg.jpg)](/projects/img/post-blackberrydevexp-img1.3-lg@2x.jpg){: .col-3}
 [![Interviewing](/projects/img/post-blackberrydevexp-img2.4-lg.jpg)](/projects/img/post-blackberrydevexp-img1.4-lg@2x.jpg){: .col-3}
 [![Chatting with evangelists in Canada](/projects/img/post-blackberrydevexp-img2.1-lg.jpg)](/projects/img/post-blackberrydevexp-img1.1-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" data-reveal-position=""}
+{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-deviaw"}
 
 Based on our findings, we ideated around what could be done to make the experience better.
 
@@ -58,6 +60,7 @@ We kept iterating on information architecture, navigation and layout of pages.
 
 
 ##Building and Iterating
+{: data-reveal-in-id="reveal-devbi" data-reveal-out-id="reveal-deviaw"}
 Everything was done over two or three week sprints to keep in sync with the UI framework development team.
 {: .lead}
 
@@ -65,7 +68,7 @@ Everything was done over two or three week sprints to keep in sync with the UI f
 [![Personas](/projects/img/post-blackberrydevexp-img3.3-lg.jpg)](/projects/img/post-blackberrydevexp-img3.3-lg@2x.jpg){: .col-3}
 [![Interviewing](/projects/img/post-blackberrydevexp-img3.4-lg.jpg)](/projects/img/post-blackberrydevexp-img3.4-lg@2x.jpg){: .col-3}
 [![Chatting with evangelists in Canada](/projects/img/post-blackberrydevexp-img3.1-lg.jpg)](/projects/img/post-blackberrydevexp-img3.1-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" data-reveal-position=""}
+{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-devbi"}
 
 Instead of making extensive documentation on how something should work, we quickly built prototypes to try it out and put them against our scenarios and personas.
 
