@@ -11,11 +11,11 @@ categories: projects
 Creating tools, documentation and assets for third party developers on the BlackBerry 10 platform.
 {: .post__excerpt data-reveal-in-id="reveal-hero"}
 
-[![Code on screen](/projects/img/post-blackberrydevexp-lg.jpg){: srcset=""}](/projects/img/post-blackberrydevexp-lg@2x.jpg){: .col-1}
+[![War room](/projects/img/post-blackberrydevexp-lg.jpg){: srcset=""}](/projects/img/post-blackberrydevexp-lg@2x.jpg){: .col-1}
 {: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-hero"}
 
 ####What did I do?
-Personas and Scenarios definition • Information architecture for developer.blackberry.com websites • Interaction design for Sample applications, Websites and Tools • Interaction design for style guide components • Documentation and website information architecture • Prototyping • PHP, JavaScript and CSS Development
+Personas and Scenarios definition • Information architecture for developer.blackberry.com websites • Interaction design for Sample applications, Websites and Tools • Interaction design for style guide components • Documentation and website information architecture • Web-application design for vendor portal • Prototyping • PHP, JavaScript and CSS Development
 
 ####Challenges
 Synchronizing documentation to a constantly shifting product.
@@ -23,7 +23,7 @@ Synchronizing documentation to a constantly shifting product.
 Understanding the user without meeting the actual user.
 
 
-##Developer Journeys and Personas 
+##Developer Journeys and Personas
 {: data-reveal-in-id="reveal-devjp" data-reveal-out-id="reveal-hero"}
 We tried to get an understanding for what our users had to do to make things for previous platforms; like their journey through our sites and tools, to be able to reach their goals.
 {: .lead}
@@ -46,10 +46,10 @@ From the things we learned, we created personas and used these in scenarios.
 Based on our understanding of the users and their journeys, we tried to find solutions, built an information architecture and sketched our ideas.
 {: .lead}
 
-[![Developer scenarios](/projects/img/post-blackberrydevexp-img2.2-lg.jpg)](/projects/img/post-blackberrydevexp-img1.2-lg@2x.jpg){: .col-3}
-[![Personas](/projects/img/post-blackberrydevexp-img2.3-lg.jpg)](/projects/img/post-blackberrydevexp-img1.3-lg@2x.jpg){: .col-3}
-[![Interviewing](/projects/img/post-blackberrydevexp-img2.4-lg.jpg)](/projects/img/post-blackberrydevexp-img1.4-lg@2x.jpg){: .col-3}
-[![Chatting with evangelists in Canada](/projects/img/post-blackberrydevexp-img2.1-lg.jpg)](/projects/img/post-blackberrydevexp-img1.1-lg@2x.jpg){: .col-1}
+[![Design guidlines information architecture](/projects/img/post-blackberrydevexp-img2.2-lg.jpg)](/projects/img/post-blackberrydevexp-img2.2-lg@2x.jpg){: .col-3}
+[![Tools download study](/projects/img/post-blackberrydevexp-img2.3-lg.jpg)](/projects/img/post-blackberrydevexp-img2.3-lg@2x.jpg){: .col-3}
+[![Interviewing](/projects/img/post-blackberrydevexp-img2.4-lg.jpg)](/projects/img/post-blackberrydevexp-img2.4-lg@2x.jpg){: .col-3}
+[![Developer site architecture](/projects/img/post-blackberrydevexp-img2.1-lg.jpg)](/projects/img/post-blackberrydevexp-img2.1-lg@2x.jpg){: .col-1}
 {: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-deviaw"}
 
 Based on our findings, we ideated around what could be done to make the experience better.

@@ -72,6 +72,12 @@ header.post__header {
   }
 }
 
+.post__content {
+	.post__excerpt {
+		@extend .lead
+	}
+}
+
 .background__image--fill {
 	background-position: 50% 50;
 	background-repeat: no-repeat;
