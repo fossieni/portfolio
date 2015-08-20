@@ -36,7 +36,7 @@ To do that, you can’t only study the user, but also study the system in which 
 Systems analysis • Interviews • Requirements gathering • Surveys • Personas • Scenarios
 
 ##Think
-{: data-reveal-in-id="reveal-think" data-reveal-out-id="-reveal-learn"}
+{: data-reveal-in-id="reveal-think" data-reveal-out-id="reveal-learn"}
 Combine two ideas, and you get a new idea. Visualize and draw the idea to see if it works and verify against personas and scenarios.
 {: .lead}
 
@@ -53,7 +53,7 @@ After finding potential solutions, we need to test these solutions further by sk
 User journeys • Ideation • Mental models • Sketching • Information Architecture
 
 ##Make
-{: data-reveal-in-id="reveal-think" data-reveal-out-id="-reveal-make"}
+{: data-reveal-in-id="reveal-make" data-reveal-out-id="reveal-think"}
 Let’s hammer out the details. Now that we know what we need to do, this is how we will achieve it.
 {: .lead}
 
@@ -69,7 +69,7 @@ questions and help out with coding and feasibility testing, if needed.
 Site maps • Wireframes • Prototyping • Coding
 
 ##Check
-{: data-reveal-in-id="reveal-make" data-reveal-out-id="-reveal-check"}
+{: data-reveal-in-id="reveal-check" data-reveal-out-id="reveal-make"}
 Got something that is touch, click or tap-able? Lets put it in front of the users sooner rather than later.
 {: .lead}
 
