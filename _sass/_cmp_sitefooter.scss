@@ -30,6 +30,10 @@ footer.footer__site {
 		display: inline;
 		margin-right: 10px;
 	}
+
+	ul.footer__links li a span {
+		color: $almost-black;
+	}
 	
 	ul.footer__links li a:hover {
 		text-decoration: none;
