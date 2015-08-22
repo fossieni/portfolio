@@ -17,7 +17,7 @@
 	transition: all .25s ease-in-out;
   
   
-	@media (min-width: $screen-tablet) {
+	@media (min-width: $screen-desktop) {
 	  position: fixed;
 	  width: 41%;
 	  left: 60px;
@@ -50,7 +50,7 @@
 			height: 100%;
 			border: 0;
 			
-			@media (min-width: $screen-tablet) {
+			@media (min-width: $screen-desktop) {
     		position: absolute;
     	}
   	}

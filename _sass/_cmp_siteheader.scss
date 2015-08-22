@@ -6,7 +6,7 @@ header.header__site {
   top: 0px;
 	z-index: $zindex-navbar;
 
-	@media (min-width: $screen-md) {
+	@media (min-width: $screen-desktop) {
 		position: fixed;
 	  top: 0;
 	  left: 0;
@@ -33,7 +33,7 @@ header.header__site {
 	  font-weight: 400;
 	  -webkit-text-size-adjust: 100%;
 
-		@media (min-width: $screen-md) {
+		@media (min-width: $screen-desktop) {
 	    position: relative;
 			top: 30px;
 			left: 30px;
@@ -51,7 +51,7 @@ header.header__site {
 		display: block;
 		padding-top: 30px;
 
-		@media (min-width: $screen-md) {
+		@media (min-width: $screen-desktop) {
 		  display: inline;
 		}
 	}
@@ -60,7 +60,7 @@ header.header__site {
 		display: block;
 		margin-top: 20px;
 		
-		@media (min-width: $screen-md) {
+		@media (min-width: $screen-desktop) {
 		  display: inline;
 		  padding-left: 15px;
 		}
@@ -71,7 +71,7 @@ header.header__site {
 	  margin-top: 10px;
 	  font-size: 1.1rem;
 	  
-  	@media (min-width: $screen-md) {
+  	@media (min-width: $screen-desktop) {
 	    text-align: right;
 	    margin-top: 3px;
 	    margin-right: 25px;
@@ -81,7 +81,7 @@ header.header__site {
 		  position: relative;
 		  padding: 5px;
 			
-			@media (min-width: $screen-md) {
+			@media (min-width: $screen-desktop) {
 			  margin-left: 15px;
 			}
 			

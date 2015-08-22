@@ -3,7 +3,7 @@ header.page__header, header.list__header {
 	margin-top: 190px;
   width: 100%;
 
-	@media (min-width: $screen-tablet) {
+	@media (min-width: $screen-desktop) {
 		position: fixed;
 		width: 45%;
 	  
@@ -19,7 +19,7 @@ header.post__header {
 	margin-top: 190px;
   width: 100%;
 
-	@media (min-width: $screen-tablet) {
+	@media (min-width: $screen-desktop) {
 	  margin-top: 60px;
 	  margin-bottom: 30px;
 
@@ -39,7 +39,7 @@ header.post__header {
 			padding-right: 30px;
 		}
 	}	
-	@media (min-width: $screen-tablet) {
+	@media (min-width: $screen-desktop) {
 		margin-left: 45%;
 		padding-left: 60px;
 		padding-right: 60px;
@@ -58,7 +58,7 @@ header.post__header {
 	height: 400px;
   height: 100vw;
   
-	@media (min-width: $screen-tablet) {
+	@media (min-width: $screen-desktop) {
     position: absolute;
 	  top: 0;
     bottom: 0;
