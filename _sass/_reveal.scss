@@ -1,6 +1,6 @@
-.no-touch .reveal[data-reveal-once], .no-touch .reveal[data-reveal-position] {
-	opacity: 0;
+.reveal[data-reveal-once], .reveal[data-reveal-position] {
 	@media (min-width: $screen-md) {
+		opacity: 0;
 		display: none;
 	}
 }

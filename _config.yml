@@ -1,8 +1,7 @@
 # Site settings
 title: Johan Alexandersson 
 email: johan@alexandersson.co
-description: > # this means to ignore newlines until "baseurl:"
-"I am Johan. I'm a Designer and Coder. I enjoy learning new things. Looking at things from a perspective that I didn’t know about before. I love doing more than making pretty pixels or coding. I want to get my feet wet and try to see the whole picture."
+description: "I am Johan. I'm a Designer and Coder. I enjoy learning new things. Looking at things from a perspective that I didn’t know about before. I love doing more than making pretty pixels or coding. I want to get my feet wet and try to see the whole picture."
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: none
 url: "http://me.alexandersson.co" # the base hostname & protocol for your site

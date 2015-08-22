@@ -24,21 +24,19 @@ class window.Postlist
 	init: () ->
 		app.postlist.position_queue = $(@options.position_queue_selector)	
 		
-		if Modernizr.touch
-			app.postlist.position_queue = []
-		else
-			for el in app.postlist.position_queue
-				el.trig_id = $(el).data("reveal-position")
-				el.trig_in = $("[data-reveal-in-id='#{el.trig_id}']")
-				el.trig_out = $("[data-reveal-out-id='#{el.trig_id}']")
-				
-			app.doc.scroll(app.postlist.handler)
-			app.win.resize(app.postlist.handler)
-			app.postlist.handler()
+		for el in app.postlist.position_queue
+			el.trig_id = $(el).data("reveal-position")
+			el.trig_in = $("[data-reveal-in-id='#{el.trig_id}']")
+			el.trig_out = $("[data-reveal-out-id='#{el.trig_id}']")
+			
+		app.doc.scroll(app.postlist.handler)
+		app.win.resize(app.postlist.handler)
+		app.postlist.handler()
 			
 	handler: () ->
 # 		app.win.requestAnimationFrame(handler)
-		if app.postlist.position_queue isnt undefined
+		w = app.win.innerWidth()
+		if app.postlist.position_queue isnt undefined and w > 992
 			visibile_el = $.grep(app.postlist.position_queue, (el, i) ->
 				try
 					st = app.win.scrollTop()
