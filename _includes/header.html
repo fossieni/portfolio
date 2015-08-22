@@ -15,9 +15,9 @@
       {% for node in site.pages %}
         {% if node.title %}
 					{% if page.group == node.group %}
-          	<a class="link__page active" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+          	<a class="link__page active" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}<span class="underline"></span></a>
 			    {% else %}
-          	<a class="link__page" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+          	<a class="link__page" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}<span class="underline"></span></a>
 					{% endif %}
         {% endif %}
       {% endfor %}

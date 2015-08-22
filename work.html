@@ -12,6 +12,7 @@ excerpt: A walkthrough of different projects that I’ve been dealing with throu
 
   {% for post in site.posts %}
   <li><a class="postlist__link background__image--fill light text-center" style="background-image: url('{{ post.post-image }}-lg.jpg');" href="{{ post.url | prepend: site.baseurl }}">
+		<div class="postlist__overlay"></div>
 		<div class="postlist__item postlist__item--big">
 			<p class="post__type">{{ post.type }}</p>
       <h2 class="post__title">{{ post.title }}</h2>

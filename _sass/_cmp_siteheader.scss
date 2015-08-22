@@ -78,21 +78,38 @@ header.header__site {
 		}
 		
 	  a {
+		  position: relative;
 		  padding: 5px;
-		  
+			
 			@media (min-width: $screen-md) {
 			  margin-left: 15px;
 			}
 			
-			&.active {
-				border-bottom: 1px solid $almost-black;
+			span.underline {
+				position: absolute;
+				bottom: 0;
+		    left: 0;
+		    right: 0;
+		    margin: 0 auto;
+				width: 0%;
+				border-bottom: 2px solid $link-color;
+				-webkit-transition: all .35s;
+				transition: all .35s;	
 			}
-	  }
-	  
-	  a:hover {
-		  text-decoration: none;
-			border-bottom: 1px solid $almost-black;
-	  }
+			
+			&:hover {
+			  text-decoration: none;
+
+				span.underline {
+					border-bottom: 2px solid $link-hover-color;
+					width: 100%;
+				}
+			}	
+			
+			&.active span.underline {
+				width: 100%;
+			}
+	  }	  
 	}
 	
 	&.light a {

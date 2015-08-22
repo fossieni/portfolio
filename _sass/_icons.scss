@@ -4,8 +4,13 @@
  */
 .icon > svg {
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  
+	width: 25px * 0.8;
+	height: 25px * 0.8;
+	@media (min-width: $screen-tablet) {
+	  width: 25px;
+	  height: 25px;
+  }
   vertical-align: middle;
 }
 
@@ -21,9 +26,14 @@
 }
 
 .icon.icon--54x54 > svg {
+	width: 54px * 0.8;
+	height: 54px * 0.8;
+  margin-top: -12px * 0.8;
+	@media (min-width: $screen-tablet) {
     width: 54px;
     height: 54px;
     margin-top: -12px;
+  }
 }
 
 .icon.icon--logo > svg {
