@@ -50,3 +50,9 @@ class window.Postlist
 $ ->
 	window.app = new App
 	app.init()
+	
+	isIE10 = navigator.userAgent.match(/MSIE\s?(\d+)(?:\.(\d+))?/i)
+	if isIE10 isnt undefined and isIE10 isnt null and isIE10[1] is "10"
+		document.documentElement.className += " ie10";
+	else if isIE10 isnt undefined and isIE10 isnt null and isIE10[1] is "11"
+		document.documentElement.className += " ie11";	

@@ -13,6 +13,7 @@
 		-webkit-transition: all .35s;
 		transition: all .35s;	
 		position: relative;
+		color: $almost-white;
 
 		.postlist__overlay {
 			position: absolute;
@@ -54,38 +55,42 @@
 						opacity: 1;
 					}
 				}
+				
+				.button {
+					color: $almost-black;
+				}
 			}
 		}
+		&:visited {
+			color: $almost-white;
+		}
 	}
-
 	
 	.postlist__item--big {
 		position: relative;
-		height: 300px;
 		margin-top: 30px;
 		padding: 30px;
-		color: $almost-white;
 		
 		-webkit-transition: all .35s;
 		transition: all .35s;	
 
 		.post__type {
 			text-transform: uppercase;
+			color: $almost-white;
 		}
 		
 		.post__excerpt {
-			opacity: 0;
 			-webkit-transition: all .35s;
-			transition: all .35s;	
+			transition: all .35s;
+			color: $almost-white;
+			margin: 10px 0 35px;
 		}
 		
 		.post__title {
 			color: $almost-white;
 		}
 		.button {
-			position: absolute;
-			bottom: 60px;
-			margin-left: -65px;
+			color: $almost-white;
 		}
 	}	
 	.post__item--small {
@@ -93,10 +98,11 @@
 	}
 }
 
-.no-touch .postlist .postlist__item.postlist__item--first {
-	height: 75vh;
+.no-touch .postlist .postlist__link .postlist__item .post__excerpt {
+	opacity: 0;
 }
 
-.no-touch .postlist .postlist__item {
-	height: 55vh;
+.no-touch .postlist .postlist__link:hover .postlist__item .post__excerpt {
+	opacity: 1;
 }
+
