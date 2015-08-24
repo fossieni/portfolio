@@ -12,7 +12,7 @@ Creating tools, documentation and assets for third party developers on the Black
 {: .post__excerpt data-reveal-in-id="reveal-hero"}
 
 [![War room](/projects/img/post-blackberrydevexp-lg.jpg){: srcset=""}](/projects/img/post-blackberrydevexp-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-hero"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-hero"}
 
 ####What did I do?
 Personas and Scenarios definition • Information architecture for developer.blackberry.com websites • Interaction design for Sample applications, Websites and Tools • Interaction design for style guide components • Documentation and website information architecture • Web-application design for vendor portal • Prototyping • PHP, JavaScript and CSS Development
@@ -32,7 +32,7 @@ We tried to get an understanding for what our users had to do to make things for
 [![Developer scenarios](/projects/img/post-blackberrydevexp-img1.2-lg.jpg)](/projects/img/post-blackberrydevexp-img1.2-lg@2x.jpg){: .col-3}
 [![Personas](/projects/img/post-blackberrydevexp-img1.3-lg.jpg)](/projects/img/post-blackberrydevexp-img1.3-lg@2x.jpg){: .col-3}
 [![Interviewing](/projects/img/post-blackberrydevexp-img1.4-lg.jpg)](/projects/img/post-blackberrydevexp-img1.4-lg@2x.jpg){: .col-3}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-devjp"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-devjp"}
 
 When we started out, we tried to get a feeling for what our developer needed to do right now to develop for our platform.
 
@@ -50,7 +50,7 @@ Based on our understanding of the users and their journeys, we tried to find sol
 [![Tools download study](/projects/img/post-blackberrydevexp-img2.3-lg.jpg)](/projects/img/post-blackberrydevexp-img2.3-lg@2x.jpg){: .col-3}
 [![Interviewing](/projects/img/post-blackberrydevexp-img2.4-lg.jpg)](/projects/img/post-blackberrydevexp-img2.4-lg@2x.jpg){: .col-3}
 [![Developer site architecture](/projects/img/post-blackberrydevexp-img2.1-lg.jpg)](/projects/img/post-blackberrydevexp-img2.1-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-deviaw"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-deviaw"}
 
 Based on our findings, we ideated around what could be done to make the experience better.
 
@@ -68,7 +68,7 @@ Everything was done over two or three week sprints to keep in sync with the UI f
 [![Personas](/projects/img/post-blackberrydevexp-img3.3-lg.jpg)](/projects/img/post-blackberrydevexp-img3.3-lg@2x.jpg){: .col-3}
 [![Interviewing](/projects/img/post-blackberrydevexp-img3.4-lg.jpg)](/projects/img/post-blackberrydevexp-img3.4-lg@2x.jpg){: .col-3}
 [![Chatting with evangelists in Canada](/projects/img/post-blackberrydevexp-img3.1-lg.jpg)](/projects/img/post-blackberrydevexp-img3.1-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-devbi"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-devbi"}
 
 Instead of making extensive documentation on how something should work, we quickly built prototypes to try it out and put them against our scenarios and personas.
 

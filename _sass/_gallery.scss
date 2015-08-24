@@ -110,3 +110,19 @@ a[class^='float'] {
 .ie10 [data-gallery] a {
 	position: static;
 }
+
+.ie10, .ie11, .msedge {
+	[data-gallery] a img {
+		max-width: none;
+		width: auto;
+		height: auto;
+	}
+	
+	[data-gallery] a img.ms-wider {
+		height: 100%;
+	}
+	[data-gallery] a img.ms-taller {
+		width: 100%;
+	}
+}
+

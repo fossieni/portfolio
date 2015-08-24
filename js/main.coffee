@@ -5,12 +5,58 @@ class window.App
 	win: $(window)
 
 	postlist: undefined
+	isIE10: false
+	isIE11: false
+	isEDGE: false
 
 	constructor: () ->
 
 	init: () ->
+		ie10 = navigator.userAgent.match(/MSIE\s?(\d+)(?:\.(\d+))?/i)
+		if ie10 isnt undefined and ie10 isnt null and ie10[1] is "10"
+			@isIE10 = true
+			document.documentElement.className += " ie10"
+	
+		ie11 = navigator.userAgent.match(/Trident.*?rv:11/i)
+		if ie11 isnt undefined and ie11 isnt null
+			@isIE11 = true
+			document.documentElement.className += " ie11"
+
+		edge = navigator.userAgent.match(/Edge/i)
+		if edge isnt undefined and edge isnt null
+			@isEDGE = true
+			document.documentElement.className += " msedge"
+	
+		app.objectfit = new MSObjectFit
 		app.postlist = new Postlist
+		app.objectfit.init()
 		app.postlist.init()
+
+class window.History
+
+
+class window.MSObjectFit
+	options: {
+		objectfit_selector: ".gallery img"	
+	}
+	
+	constructor: () ->
+	
+	init: () ->
+		if app.isIE10 or app.isIE11 or app.isEDGE
+			this.process(el) for el in $(@options.objectfit_selector)
+			
+	process: (el) ->
+		el_width = $(el).width()
+		el_height = $(el).height()
+		el_aspect = el_width / el_height
+		parent_width = $(el.parentNode).width()
+		parent_height = $(el.parentNode).height()
+		parent_aspect =  parent_width / parent_height
+		if el_aspect > parent_aspect
+			$(el).addClass("ms-wider")
+		else
+			$(el).addClass("ms-taller")
 	
 class window.Postlist
 	options: {
@@ -46,13 +92,8 @@ class window.Postlist
 					else
 						$(el).removeClass("active")			
 			)
-			
+
+	
 $ ->
 	window.app = new App
-	app.init()
-	
-	isIE10 = navigator.userAgent.match(/MSIE\s?(\d+)(?:\.(\d+))?/i)
-	if isIE10 isnt undefined and isIE10 isnt null and isIE10[1] is "10"
-		document.documentElement.className += " ie10";
-	else if isIE10 isnt undefined and isIE10 isnt null and isIE10[1] is "11"
-		document.documentElement.className += " ie11";	
+	app.init()		

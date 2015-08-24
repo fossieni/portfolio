@@ -1,14 +1,14 @@
 .reveal[data-reveal-once], .reveal[data-reveal-position] {
 	@media (min-width: $screen-md) {
 		opacity: 0;
-		display: none;
+		visibility: hidden;
 	}
 }
 
 .reveal.active[data-reveal-once], .reveal.active[data-reveal-position] {
 	opacity: 1;
 	@media (min-width: $screen-md) {
-		display: block;
+		visibility: visible;
 	}
 }
 .reveal.gallery.active[data-reveal-once], .reveal.gallery.active[data-reveal-position] {

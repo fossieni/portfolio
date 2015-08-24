@@ -12,7 +12,7 @@ title-image: /img/profile-hero
 I am Johan. I enjoy learning new things. Looking at things from a perspective that I didn't know about before. I love doing more than making pretty pixels or coding. I want to get my feet wet and try to see the whole picture.
 
 [![Me](/img/profile-hero-lg.jpg)](/img/profile-hero-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-hero"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-hero"}
 
 My tools and mind set going into any project is the User Centered Design process. Research, design and development are all part of the process and should not be isolated. Instead, bridging them all together can make wonders for the result. 
 
@@ -24,7 +24,7 @@ I am not the user even if I use the end result. Therefore I listen and learn bef
 {: .lead}
 
 [![Learn](/img/profile-learn-lg.jpg)](/img/profile-learn-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-learn"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-learn"}
 
 Empathy for the user is something that always needs to be present. 
 
@@ -41,7 +41,7 @@ Combine two ideas, and you get a new idea. Visualize and draw the idea to see if
 {: .lead}
 
 [![Think](/img/profile-think-lg.jpg)](/img/profile-think-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-think"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-think"}
 
 After learning about users and their system, we try to find solutions to their problems.
 
@@ -58,7 +58,7 @@ Let’s hammer out the details. Now that we know what we need to do, this is how
 {: .lead}
 
 [![Make](/img/profile-make-lg.jpg)](/img/profile-make-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-make"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-make"}
 
 In this step we create wireframes, layouts, detailed documentation or prototypes in varying fidelity. These will describe how things should work and where they should be.
 
@@ -74,7 +74,7 @@ Got something that is touch, click or tap-able? Lets put it in front of the user
 {: .lead}
 
 [![Check](/img/profile-check-lg.jpg)](/img/profile-check-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-check"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-check"}
 
 When we have something that people can try out, I find it better to show it sooner rather than later. I test my ideas with paper or physical prototypes; HTML mock-ups or with a rough version of the real deal.
 

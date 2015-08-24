@@ -7,7 +7,6 @@
 		margin-top: 60px;
 	}
 	
-
 	.postlist__link {
 		display: block;
 		-webkit-transition: all .35s;
@@ -21,16 +20,11 @@
 			bottom: 0;
 			left: 0;
 			right: 0;
-			opacity: 0;
-			background-color: rgba($brand-primary, 0.7);
-	    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
 	    -webkit-transition-duration: 0.35s;
 	    transition-duration: 0.35s;
 	    -webkit-transition-property: all;
 	    transition-property: all;
 	    -webkit-clip-path: polygon(0 100%, -50% 100%, 0% 0, 0 0);
-	    -ms-clip-path: polygon(0 100%, -50% 100%, 0% 0, 0 0);
-	    -moz-clip-path: polygon(0 100%, -50% 100%, 0% 0, 0 0);
 	    clip-path: polygon(0 100%, -50% 100%, 0% 0, 0 0);
 	  }
 		
@@ -41,10 +35,8 @@
 			text-decoration: none;
 
 			.postlist__overlay {
-				opacity: 1;
+				background-color: rgba(saturate($brand-primary, 40), 0.7);
 		    -webkit-clip-path: polygon(0 100%, 100% 100%, 150% 0, 0 0);
-		    -ms-clip-path: polygon(0 100%, 100% 100%, 150% 0, 0 0);
-		    -moz-clip-path: polygon(0 100%, 100% 100%, 150% 0, 0 0);
 		    clip-path: polygon(0 100%, 100% 100%, 150% 0, 0 0);
 			}
 					
@@ -66,36 +58,41 @@
 		}
 	}
 	
-	.postlist__item--big {
-		position: relative;
-		margin-top: 30px;
-		padding: 30px;
-		
-		-webkit-transition: all .35s;
-		transition: all .35s;	
-
-		.post__type {
-			text-transform: uppercase;
-			color: $almost-white;
-		}
-		
-		.post__excerpt {
+// 	li:nth-child(-n+3)  {
+		.postlist__item {
+			position: relative;
+			margin-top: 30px;
+			padding: 30px;
+			
 			-webkit-transition: all .35s;
-			transition: all .35s;
-			color: $almost-white;
-			margin: 10px 0 35px;
+			transition: all .35s;	
+	
+			.post__type {
+				text-transform: uppercase;
+				color: $almost-white;
+			}
+			
+			.post__excerpt {
+				-webkit-transition: all .35s;
+				transition: all .35s;
+				color: $almost-white;
+				margin: 10px 0 35px;
+			}
+			
+			.post__title {
+				color: $almost-white;
+			}
+			.button {
+				color: $almost-white;
+			}
 		}
-		
-		.post__title {
-			color: $almost-white;
-		}
-		.button {
-			color: $almost-white;
-		}
-	}	
-	.post__item--small {
-
+/*
 	}
+	li:nth-child(n+4) {
+		width: 49%;
+		float: left;
+	}
+*/
 }
 
 .no-touch .postlist .postlist__link .postlist__item .post__excerpt {

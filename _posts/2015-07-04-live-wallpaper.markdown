@@ -12,7 +12,7 @@ This project was an inter-company competition and a challenge to myself.
 {: .post__excerpt data-reveal-in-id="reveal-hero"}
 
 [![Screenshot](/projects/img/post-livewallpaper-lg.jpg)](/projects/img/post-livewallpaper-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-hero"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-hero"}
 
 ####What did I do?
 Interaction design • Visual design • Android Java and Cascades TML Development
@@ -29,11 +29,11 @@ When working towards a fast approaching deadline, I want to get risks out of the
 
 [![Creating caracters and pixel art](/projects/img/post-livewallpaper-1.1-lg.jpg)](/projects/img/post-livewallpaper-1.1-lg@2x.jpg){: .col-1}
 [![Testing microphone](/projects/img/post-livewallpaper-1.2-lg.jpg)](/projects/img/post-livewallpaper-1.2-lg@2x.jpg){: .col-1}
-{: .gallery data-gallery="" .reveal .staggered-25 .fadeInUp data-reveal-position="reveal-risks"}
+{: .gallery data-gallery="" .reveal data-reveal-position="reveal-risks"}
 
 This was a project using the TAT Cascades UI Framework for something it was not quite intended, specifically an Android Live Wallpaper. I entered the project with a number of ideas. Since there were things I didn’t have much experience with, I needed to make a feasibility tests for those. I can’t sink too much time into something that won’t work in the end when on a tight deadline.
 
-One example was having the wallpaper reacting to sounds. It worked great until you were going to take a phone call. Because the wallpaper was  using the microphone instead of the dialer app, the person on the other end could not hear you. Needless to say that idea had to be scrapped.
+One example was having the wallpaper reacting to sounds. It worked great until you were going to take a phone call. Because the wallpaper was  using the microphone instead of the dailer app, the person on the other end could not hear you. Needless to say that idea had to be scrapped.
 
 ####Links for reference
 [Release blogpost][link-livewallpaper-blogpost]
