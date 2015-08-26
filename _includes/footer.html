@@ -54,7 +54,7 @@
 
     {% if site.resume %}
     <li>
-      <a href="{{ site.resume }}">
+      <a href="{{ "/resume.pdf" | prepend: site.baseurl | prepend: site.url }}">
         <span>Resume</span>
       </a>
     </li>
